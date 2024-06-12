@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
+# In[ ]:
 
 
 import tensorflow as tf
@@ -15,7 +15,7 @@ import pandas as pd
 from tensorflow.keras.preprocessing import image
 
 
-# In[2]:
+# In[ ]:
 
 
 data_dir = r'C:\Users\ASUS\Desktop\新增資料夾'  # path
@@ -24,7 +24,7 @@ batch_size = 8
 num_classes = 3  # type class num 
 
 
-# In[3]:
+# In[ ]:
 
 
 datagen = keras.preprocessing.image.ImageDataGenerator(validation_split=0.2, rescale=1./255)
